@@ -65,8 +65,17 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
         VALUES ('$a') WHERE username = '$username'";
 		
 		
-		$exeQType = mysql_query($sqlQualType, $conn);
-		$exeQual = mysql_query($sqlQual,$conn);
+		if(mysql_query($sqlQualType, $conn)) {
+			echo "success #1";
+		} else {
+			echo "critical mission failure #1"
+		if(mysql_query($sqlQual,$conn)) {
+			echo "success #2";
+		}	else {
+			echo "critical mission failure #2"
+		}
+		
+		
 		
     }
 ?>
