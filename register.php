@@ -26,19 +26,19 @@
 
 	<form action="registerpost.php" class="form-signin" method="post">
         <h2 class="form-signin-heading">Please register:</h2>
-        <label for="inputEmail" class="sr-only">Email</label>
         <input type="text" name="email" id="email" class="form-control" placeholder="Email" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
+        <br>
         <input type="text" name="password" id="password" class="form-control" placeholder="Password" required autofocus>
-        <label for="inputForename" class="sr-only">Forename</label>
+        <br>
         <input type="text" name="forename" id="forename" class="form-control" placeholder="Forename" required autofocus>
-        <label for="inputSurname" class="sr-only">Surname</label>
+        <br>
         <input type="text" name="surname" id="surname" class="form-control" placeholder="Surname" required>
-        <label for="inputPostCode" class="sr-only">Post Code</label>
+        <br>
         <input type="text" name="postcode" id="postcode" class="form-control" placeholder="Post Code" required>
-        <label for="inputDOB" class="sr-only">Date of Birth (DD/MM/YYYY)</label>
-        <input type="text" name="dob" id="dob" class="form-control" pattern="(0[1-9]|1[012])/(0[1-9]|1[0-9]|2[0-9]|3[01])/[0-9]{4}" placeholder="Date of Birth" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+        <br>
+        <input type="text" name="dob" id="dob" class="form-control" pattern="(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])-[0-9]{4}" placeholder="Date of Birth" required>
+        <br>
+		<button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
       </form>
 
     </div>
