@@ -33,6 +33,8 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 
 /** End Queries **/
 
+/** Form example **/
+
 
 <form action="" method="POST">
     <input type="text" name="text" />
@@ -40,22 +42,17 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 </form>
 
 <?php
-    $a = array();
 
     if( isset($_REQUEST['text']) && !empty($_REQUEST['text'])){
-        array_push($a, $_REQUEST['text']);
-		
 
-
-		$package =serialize($a);
-        print_r($package);
-		$unpack = unserialize($package);
-		
-		$sqlQual = "INSERT INTO users (qualifications)
-        VALUES ('$package')";
+		$a = $_REQUEST['text'];
+        
+		$sqlQual = "INSERT INTO users (qualification1)
+        VALUES ('$a')";
     }
 ?>
 
+/** End Form Example **/
 
 
 
