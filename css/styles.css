@@ -1,5 +1,5 @@
 #wrapper{
-	width: 100%;
+	min-width: 960px;
 }
 #header{
 	width: 100%;
