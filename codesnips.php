@@ -37,6 +37,7 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 
 
 <form action="" method="POST">
+	<input type="text" name="textNo" value="1">
     <input type="text" name="text" />
 	<input type="text" name="text2" />
     <input type="submit" name="sub"/>
@@ -51,16 +52,17 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 
 		$a = $_REQUEST['text1'];
 		$b = $_REQUEST['text2'];
+		$c = $_REQUEST['textNo'];
 		
 		$username = $_SESSION['userlog'];
 		
-		$qualificationTypeNO = "qualificationType('$c')";
+		$qualificationTypeNO = "qualificationType" . $c);
         
-		$sqlQualType = "INSERT INTO users (qualificationType1)
+		$sqlQualType = "INSERT INTO users ('$qualificationTypeNO')
 		VALUES('$b') WHERE username = '$username'";
 		
-		$sqlQual = "INSERT INTO users (qualification1)
-        VALUES ('$a')";
+		$sqlQual = "INSERT INTO users ('$qualificationTypeNO')
+        VALUES ('$a') WHERE username = '$username'";
     }
 ?>
 
