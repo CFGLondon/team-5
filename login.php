@@ -19,7 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		if (password_verify($password, $hash)){
 	
 			$_SESSION['userlog'] = $username;
-			header("location: dashboard.php");
+			header("location: profile.php");
 
 		} else {
 	
