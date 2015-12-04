@@ -50,9 +50,9 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 	
 		/** IF MADE UP OF 2 **/
 
-		$a = $_REQUEST['text1'];
-		$b = $_REQUEST['text2'];
-		$c = $_REQUEST['textNo'];
+		$a = $_REQUEST['text1']; /* type */
+		$b = $_REQUEST['text2']; /* discipline*/
+		$c = $_REQUEST['textNo']; /* qual number */
 		
 		$username = $_SESSION['userlog'];
 		
@@ -63,6 +63,11 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 		
 		$sqlQual = "INSERT INTO users ('$qualificationTypeNO')
         VALUES ('$a') WHERE username = '$username'";
+		
+		
+		$exeQType = mysql_query($sqlQualType, $conn);
+		$exeQual = mysql_query($sqlQual,$conn);
+		
     }
 ?>
 
@@ -71,15 +76,9 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 
 /** SELECT OPTION Example **/
 
-<select name="QualList">
-	<option value="">CHOOSE AN OPTION</option>
-	<option value="gcse">GCSE</option>
-	<option value="btec">BTEC</option>
-	<option value="alevel">ALEVEL</option>
-	<option value="hons">HONS</option>
-	<option value="masters">MASTERS</option>
-</select>
+see list.html, it works better. will have to integrate the form example into it
 
+/** End SELECT OPTION Example **/
 
 
 
