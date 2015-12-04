@@ -1,0 +1,31 @@
+#wrapper{
+	width: 100%;
+	padding: 1%;
+	background-color: black;
+}
+#header{
+	width: 98%;
+	background-color: red;
+}
+#logo{}
+#nav{}
+#content{
+	width: 98%;
+	background-color: green;
+	padding: 1%;
+}
+#dashboard{
+	float: right;
+	width: 18%;
+	background-color: blue;
+}
+#main{
+	width: 78%;
+	background-color: pink;
+}
+#footer{
+	width: 98%;
+	background-color: purple;
+}
+.login{}
+.opps{}
