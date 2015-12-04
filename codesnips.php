@@ -38,15 +38,27 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 
 <form action="" method="POST">
     <input type="text" name="text" />
+	<input type="text" name="text2" />
     <input type="submit" name="sub"/>
 </form>
 
 <?php
 
-    if( isset($_REQUEST['text']) && !empty($_REQUEST['text'])){
 
-		$a = $_REQUEST['text'];
+    if( isset($_REQUEST['text1']) && isset($_REQUEST['text2'])){
+	
+		/** IF MADE UP OF 2 **/
+
+		$a = $_REQUEST['text1'];
+		$b = $_REQUEST['text2'];
+		
+		$username = $_SESSION['userlog'];
+		
+		$qualificationTypeNO = "qualificationType('$c')";
         
+		$sqlQualType = "INSERT INTO users (qualificationType1)
+		VALUES('$b') WHERE username = '$username'";
+		
 		$sqlQual = "INSERT INTO users (qualification1)
         VALUES ('$a')";
     }
