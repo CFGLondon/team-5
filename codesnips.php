@@ -69,6 +69,38 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 /** End Form Example **/
 
 
+/** SELECT OPTION Example **/
+
+<select name="QualList">
+	<option value="gcse">GCSE</option>
+	<option value="btec">BTEC</option>
+	<option value="alevel">ALEVEL</option>
+	<option value="hons">HONS</option>
+	<option value="masters">MASTERS</option>
+</select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
