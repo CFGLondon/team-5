@@ -1,32 +1,30 @@
 #wrapper{
 	width: 100%;
-	
-	background-color: black;
 }
 #header{
 	width: 100%;
-	background-color: red;
+	background-color:#df6a11 ;
 }
-
+#nav {background-color:#dcbc23;}
 #content{
 	width: 100%;
-	background-color: green;
+	background-color:#de3243 ;
 	clear: none;
 	
 }
 #dashboard{
 	float: right;
 	width: 20%;
-	background-color: blue;
+	background-color: #f3f3f4;
 }
 #main{
 	width: 80%;
-	background-color: pink;
+	background-color:#de3243;
 	float:left;
 }
 #footer{
 	width: 100%;
-	background-color: purple;
+	background-color: #df6a11;
 }
 .login{}
 .opps{}
