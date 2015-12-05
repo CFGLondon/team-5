@@ -104,6 +104,10 @@ strong {
     max-height: 300px;
 }
 
+.img-responsive {
+    max-height: 300px;
+}
+
 
 .pre-scrollable {
     max-height: 700px;
