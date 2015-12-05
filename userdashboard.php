@@ -9,15 +9,20 @@ include("dbconnect.php");
 	$results = mysqli_query($conn, $query);
 	$row_count = mysqli_num_rows($results);
 	$row_name = mysqli_fetch_array($results);
+	$opname = array();
+	$opdesc = array();
 
 	
 	while ($row = mysqli_fetch_assoc($results)) {
 		print_r($row['opportunityname']);
+		array_push($opname, $row['opportunityname']);
 		print_r("");
 		print_r($row['description']);
+		array_push($opdesc, $row['description']);
 		print_r("");
 		print_r("");
-		
+		print_r($opname[0]);
+		print_r($opdesc[0]);
 	
 	}
 	
