@@ -63,6 +63,11 @@ function get_age($birth_date){
                                    placeholder="Password">
                         </div>
                         <button type="submit" class="btn btn-default">Login</button>
+						
+						<form action="logout.php">
+						<button type="submit" class="btn btn-default">Log-Out</button>
+						</form>
+						
                     </form>
                 </div>
             </nav>    
