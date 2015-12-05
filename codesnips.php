@@ -73,9 +73,7 @@ $skills = "SELECT skills FROM users WHERE username = '$username'";
 			echo "success #2";
 		}	else {
 			echo "critical mission failure #2"
-		}
-		
-		
+		}			
 		
     }
 ?>
@@ -90,6 +88,18 @@ see list.html, it works better. will have to integrate the form example into it
 /** End SELECT OPTION Example **/
 
 
+
+/**  CREATE OPPORTUNITY **/
+
+<?php
+
+$x = $_POST['title'];
+$y = $_POST['desc'];
+$z = $_POST['location'];
+
+
+
+?>
 
 
 
