@@ -14,15 +14,10 @@ include("dbconnect.php");
 
 	
 	while ($row = mysqli_fetch_assoc($results)) {
-		print_r($row['opportunityname']);
 		array_push($opname, $row['opportunityname']);
-		print_r("");
-		print_r($row['description']);
+
 		array_push($opdesc, $row['description']);
-		print_r("");
-		print_r("");
-		print_r($opname[0]);
-		print_r($opdesc[0]);
+
 	
 	}
 	
@@ -95,8 +90,8 @@ include("dbconnect.php");
     </div>
     <div class="col-sm-4">
       <div class="tile red">
-        <h3 class="title">Opportunity 2</h3>
-        <p>Hello Red, this is a colored tile.</p>
+        <h3 class="title"><? php print_r($opname[0]); ?></h3>
+        <p><?php print_r($opdesc[0]); ?></p>
       </div>
     </div>
     <div class="col-sm-4">
