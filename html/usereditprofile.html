@@ -49,55 +49,46 @@ crossorigin="anonymous">
                     </form>
                 </div>
             </nav>    
-		<div id="content"> 
-	
-			<div id="dashboard"><p>dashboard</p></div> 
-			<div id="main">    <div class="container">
-		<div class="row">
-			<div class="[ col-sm-6 col-md-offset-2 col-md-4 ]">
-				<div class="[ info-card ]">
-					<img style="width: 150%" src="
-https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/1195
-3122_851607628286478_2449994795237162020_n.jpg?oh=9cd43842081df
-80496f55c907a567fd2&oe=57217B28" />
-					<div class="[ info-card-details ] animate">
-						<div class="[ info-card-header ]">
-							<h1> Andrew Ramsier </h1>
-							<h3> Bournemouth </h3>
-						</div>
-						<div class="[ info-card-detail ]">
-							<!-- Description -->
-							<p>First thing that comes to my head is I bite my 
-thumb at you sir! Good day, I said good day sir!</p>
-							<div class="social">
-								<a href="https://www.facebook.com/andrew.ramsier" 
-class="[ social-icon facebook ] animate"><span 
-class="fa fa-facebook"></span></a>
-
-								<a href="https://twitter.com/Brewhandy" class="[ 
-social-icon twitter ] animate"><span class="fa 
-fa-twitter"></span></a>
-
-								<a href="https://github.com/massivturtlz" class="[ 
-social-icon github ] animate"><span class="fa 
-fa-github-alt"></span></a>
-
-								<a href="https://www.linkedin.com/profile/view?id=AAkAABJSh9cBuLBOEyU_7DNdHQ4gwwE_eqoVXU4&authType=NAME_SEARCH&authToken=e60S&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A307398615%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449274689467%2Ctas%3Aandrew%20ramsier" class=
-"[ social-icon linkedin ] animate"><span class=
-"fa fa-linkedin"></span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-   
-			</div>
-		</div>
-	</div><p>main</p></div> 
-		<p>content</p>
-		</div>
-		<div id="footer"><p>footer</p></div>
-	</div>
+		
+        
+      <form action="registerpost.php" class="col-md-7 pull-left" method="post">
+         <h1>Edit Account</h1>
+         <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="text" name="email" id="email" class="form-control" placeholder="Email" required autofocus>
+         </div>
+         <div class="form-group">
+            <label for="inputPassword">Password</label>
+            <input type="text" name="password" id="password" class="form-control" placeholder="Password" required autofocus>
+         </div>
+         <div class="form-group">
+            <label for="inputForename">Forename</label>
+            <input type="text" name="forename" id="forename" class="form-control" placeholder="Forename" required autofocus>
+         </div>
+         <div class="form-group">
+            <label for="inputSurname">Surname</label>
+            <input type="text" name="surname" id="surname" class="form-control" placeholder="Surname" required>
+         </div>
+         <div class="form-group">
+            <label for="inputPostcode">Post Code</label>
+            <input type="text" name="postcode" id="postcode" class="form-control" placeholder="Post Code" required>
+         </div>
+         <div class="form-group">
+            <label for="inputDOB">Date of Birth (DD-MM-YYYY)</label>
+            <input type="text" name="dob" id="dob" class="form-control" pattern="(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])-[0-9]{4}" placeholder="Date of Birth (DD-MM-YYYY)" required>
+         </div>
+         <div class="form-group">
+            <label  for="selectQualification">Qualification</label>
+            <select class="form-control" id="selectQualification">
+               <option>Choose...</option>
+               <option>BTEC</option>
+               <option>A level</option>
+               <option>GCeeSE</option>
+            </select>
+         </div>
+         <input class="btn btn-primary" type="submit" value="save"> 
+      </form>
+        
 	        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
