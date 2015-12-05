@@ -65,17 +65,14 @@ while ($row = mysqli_fetch_assoc($results)) {
     <div class="container col-md-6">
       <h1>Suggested Opportunities</h1>
     </div>
-    <div class="container col-md-5 pull-right">
+    <div class="container col-md-6 pull-right">
 	
-		<form action="logout.php">
-            <button type="submit" class="btn btn-primary pull-right">Logout</button>
-		</form>
-		<form method="get" action="userprofile.php">
-            <button type="submit" class="btn btn-primary pull-right">View Profile</button> 
-        </form>
-        <form method="get" action="usereditprofile.php">
-            <button type="submit" class="btn btn-primary pull-right">Edit Profile</button>
-        </form>    
+		<form method="">
+            <button type="submit" formaction="logout.php" class="btn btn-primary pull-right">Logout</button>
+            <button type="submit" formaction="userprofile.php" class="btn btn-primary pull-right">View Profile</button> 
+            <button type="submit" formaction="usereditprofile.php" class="btn btn-primary pull-right">Edit Profile</button>
+        </form>  
+		
     </div>     
   </div>
   <div class="container col-md-9 pre-scrollable">
