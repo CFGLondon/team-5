@@ -2,6 +2,7 @@
 		
 include 'dbconnect.php';
 		
+// Get all the data stored
 $email = mysqli_real_escape_string($conn, $_POST['email']);
 
 $password = mysqli_real_escape_string($conn, $_POST['password']);
@@ -13,8 +14,10 @@ $postcode = mysqli_real_escape_string($conn, $_POST['postcode']);
 
 $dob = date("Y-m-d", strtotime($_POST['dob']));
 
+// Make the query
 $sql = "INSERT INTO users (email, password, forename, surname, postcode, dob) VALUES ('$email', '$pass', '$forename', '$surname', '$postcode', '$dob')";
 
+// Check if it worked.
 if ($conn->query($sql) === TRUE) {
 	
     echo "Woo it worked";	

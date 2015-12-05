@@ -2,22 +2,19 @@
 include("denied.php");
 include("dbconnect.php");
 
+// Get all oppos from DB
+$query = "SELECT * FROM opportunities";
+$results = mysqli_query($conn, $query);
+$row_count = mysqli_num_rows($results);
+$row_name = mysqli_fetch_array($results);
+$opname = array();
+$opdesc = array();
 
-
-
-	$query = "SELECT * FROM opportunities";
-	$results = mysqli_query($conn, $query);
-	$row_count = mysqli_num_rows($results);
-	$row_name = mysqli_fetch_array($results);
-	$opname = array();
-	$opdesc = array();
-
-	
-	while ($row = mysqli_fetch_assoc($results)) {
-		array_push($opname, $row['opportunityname']);
-		array_push($opdesc, $row['description']);
-
-	}	
+//Display in Rows
+while ($row = mysqli_fetch_assoc($results)) {
+	array_push($opname, $row['opportunityname']);
+	array_push($opdesc, $row['description']);
+}	
 	
 ?>
 <html lang="en">
@@ -25,7 +22,7 @@ include("dbconnect.php");
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">        
         <link rel="stylesheet" href="../css/styles.css">
         
         <title>User Dashboard</title>
@@ -219,7 +216,7 @@ include("dbconnect.php");
         
         
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>    
     </body>
 </html>

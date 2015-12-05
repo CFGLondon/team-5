@@ -2,16 +2,20 @@
 include("denied.php");
 include("dbconnect.php");
 
+// Get data for user
 $query = "SELECT * FROM users WHERE email='$user'";
 $results = mysqli_query($conn, $query);
 $row_count = mysqli_num_rows($results);
 $row_name = mysqli_fetch_array($results);
 
+
+// Get data for each row and start to print
 while ($row = mysqli_fetch_assoc($query)) {
 	print_r($row['forename']);
 		
 }
 
+// Get DoB from age stored in DB
 function get_age($birth_date){
 	return floor((time() - strtotime($birth_date))/31556926);
 }

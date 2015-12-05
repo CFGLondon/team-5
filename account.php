@@ -3,6 +3,7 @@
      
    session_start();
    
+   // Get the user and pass, compare hashed then create the session if match.
    if($_SERVER["REQUEST_METHOD"] == "POST") {
    
    	$username = mysqli_real_escape_string($conn, $_POST['username']); 
