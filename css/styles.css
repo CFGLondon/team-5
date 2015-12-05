@@ -132,6 +132,7 @@ strong {
 	width: 100%;
 	background-color: #ffffff;
 }
+
     @import url(//fonts.googleapis.com/css?family=Lato:400,900);
     @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
@@ -144,18 +145,20 @@ strong {
 	}
 	.info-card {
 		width: 200%;
-		height: 500px;
+		min-height: 500px;
 		border: 1px solid rgb(215, 215, 215);
 		position: relative;
 		font-family: 'Lato', sans-serif;
 		margin-bottom: 20px;
 		overflow: hidden;
+		text-align: center;
 	}
 	.info-card > img {
 		    margin-left: auto;
     margin-right: auto; 
 		
-		margin-bottom: 600px;
+		max-height: 600px;
+		min-height: 600px;
 
 
 	}
