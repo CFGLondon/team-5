@@ -98,6 +98,10 @@ strong {
   }
 }
 
+.pre-scrollable {
+    max-height: 2000px;
+}
+
 #wrapper{
 	min-width: 960px;
 }
