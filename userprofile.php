@@ -46,11 +46,12 @@ function get_age($birth_date){
                 </div>
                 
                 <div class="container col-md-4 pull-left">  
-                    <ul class="nav navbar-nav pull-left"> 
-                        <li class="active"><a href="">Frontpage</a></li>
-                        <li><a href="">Organisation</a></li>
-                        <li><a href="">Info</a></li>
-                        <li><a href="">Us</a></li>
+                    <ul class="nav navbar-nav pull-left">
+                        <li class="active"><a href="userdashboard.php">Dashboard</a></li>
+                        <li><a href="index.php">Frontpage</a></li>
+                        <li><a href="organisationsignup.php">Organisation</a></li>
+                        <li><a href="about.php">Info</a></li>
+                        <li><a href="account.php">Sign Up</a></li>
                     </ul> 
                 </div>
                 <div class="container col-md-5 pull-right">

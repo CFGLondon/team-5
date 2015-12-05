@@ -24,9 +24,9 @@
                     <ul class="nav navbar-nav pull-left">
                         <li class="active"><a href="organisationdashboard.php">Dashboard</a></li>
                         <li><a href="frontpage.php">Frontpage</a></li>
-                        <li><a href="./organisationsignup.php">Organisation</a></li>
+                        <li><a href="organisationsignup.php">Organisation</a></li>
                         <li><a href="about.php">Info</a></li>
-                        <li><a href="./account.php">Sign Up</a></li>
+                        <li><a href="account.php">Sign Up</a></li>
                     </ul> 
                 </div>
                 <div class="container col-md-5 pull-right">
@@ -49,9 +49,16 @@
       <h1>Current Opportunities Posted</h1>
     </div>
     <div class="container col-md-5 pull-right">
-        <button type="submit" class="btn btn-primary pull-right">Logout</button>
-        <button type="submit" class="btn btn-primary pull-right">View Profile</button>     
-        <button type="submit" class="btn btn-primary pull-right">Edit Profile</button>
+        
+        <form action="logout.php">
+            <button type="submit" class="btn btn-primary pull-right">Logout</button>
+		</form>
+		<form method="get" action="organisationprofile.php">
+            <button type="submit" class="btn btn-primary pull-right">View Profile</button> 
+        </form>
+        <form method="get" action="organisationeditprofile.php">
+            <button type="submit" class="btn btn-primary pull-right">Edit Profile</button>
+        </form>  
     </div>     
   </div>
   <div class="container col-md-9 pre-scrollable">
