@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">        
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
     
         <title>Front Page</title>
     </head>
@@ -15,18 +15,18 @@
                 <div class="container pull-left col-md-2 col-sm-2">
                     <div class="navbar-header">
                     
-                     <img class="img-responsive" src="../Assets/R21LogoDark.png">
+                     <img class="img-responsive" src="./assets/R21LogoDark.png">
                     
                     </div>
                 </div>
                 
                 <div class="container col-md-5 col-sm-5 pull-left">  
                     <ul class="nav navbar-nav pull-left">
-                        <li><a href="../userdashboard.php">Dashboard</a></li>
-                        <li class="active"><a href="frontpage.html">Frontpage</a></li>
-                        <li><a href="../organisationsignup.html">Organisation</a></li>
-                        <li><a href="about.html">Info</a></li>
-                        <li><a href="../account.php">Sign Up</a></li>
+                        <li><a href="./userdashboard.php">Dashboard</a></li>
+                        <li class="active"><a href="frontpage.php">Frontpage</a></li>
+                        <li><a href="./organisationsignup.php">Organisation</a></li>
+                        <li><a href="about.php">Info</a></li>
+                        <li><a href="./account.php">Sign Up</a></li>
                     </ul> 
                 </div>
                 <div class="container col-md-5 col-sm-5 pull-right">
@@ -54,7 +54,7 @@
                      
             <div class="carousel-inner">
                 <div class="item active" id="featured">
-                    <img class="img-responsive pull-center" src="../Assets/R21LogoDark.png" alt="R21 Logo Dark">
+                    <img class="img-responsive pull-center" src="./assets/R21LogoDark.png" alt="R21 Logo Dark">
                     <div class="carousel-caption">
                         <h3>Here we talk about the photo</h3>
                         <p>And abit more about the photo</p>               
@@ -62,10 +62,10 @@
                 </div>
                 
                 <div class="item">
-                    <img class="img-responsive pull-center" src="../Assets/R21MarkDark.png" alt="R21 Logo Dark">
+                    <img class="img-responsive pull-center" src="./assets/R21MarkDark.png" alt="R21 Logo Dark">
                 </div>    
                 <div class="item">    
-                    <img class="img-responsive pull-center" src="../Assets/R21%20Colour%20Scheme.png" alt="R21 Logo Dark">        
+                    <img class="img-responsive pull-center" src="./assets/R21%20Colour%20Scheme.png" alt="R21 Logo Dark">        
                 </div>
             </div>  
             

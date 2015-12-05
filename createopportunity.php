@@ -24,11 +24,11 @@
                 
                 <div class="container col-md-4 pull-left">  
                     <ul class="nav navbar-nav pull-left"> 
-                        <li class="active"><a href="organisationdashboard.html">Dashboard</a></li>
-                        <li><a href="frontpage.html">Frontpage</a></li>
-                        <li><a href="../organisationsignup.html">Organisation</a></li>
-                        <li><a href="about.html">Info</a></li>
-                        <li><a href="../account.php">Sign Up</a></li>
+                        <li class="active"><a href="organisationdashboard.php">Dashboard</a></li>
+                        <li><a href="frontpage.php">Frontpage</a></li>
+                        <li><a href="./organisationsignup.php">Organisation</a></li>
+                        <li><a href="about.php">Info</a></li>
+                        <li><a href="./account.php">Sign Up</a></li>
                     </ul> 
                 </div>
                 <div class="container col-md-5 pull-right">
@@ -51,7 +51,7 @@
 			</br>
 				<table>
 					<tr>
-						<form action="../oppost.php" method="POST">
+						<form action="./oppost.php" method="POST">
 						<input type="text" name="oname" placeholder="Organisation Name"/></br></br>
 						<textarea type="text" name="odesc" style='width:50%;' rows="5" placeholder="Description of Opportunity" /></textarea></br></br>
 						<input type="text" name="olocation" placeholder="Location" /></br></br>

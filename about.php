@@ -15,18 +15,18 @@
                 <div class="container pull-left col-md-2">
                     <div class="navbar-header">
                     
-                     <img class="img-responsive" src="../Assets/R21LogoDark.png">
+                     <img class="img-responsive" src="./assets/R21LogoDark.png">
                     
                     </div>
                 </div>
                 
                 <div class="container col-md-5 pull-left">  
                     <ul class="nav navbar-nav pull-left">
-                        <li><a href="userdashboard.html">Dashboard</a></li>
-                        <li><a href="frontpage.html">Frontpage</a></li>
-                        <li><a href="../organisationsignup.html">Organisation</a></li>
-                        <li class="active"><a href="about.html">Info</a></li>
-                        <li><a href="../account.php">Sign Up</a></li>
+                        <li><a href="userdashboard.php">Dashboard</a></li>
+                        <li><a href="frontpage.php">Frontpage</a></li>
+                        <li><a href="./organisationsignup.php">Organisation</a></li>
+                        <li class="active"><a href="about.php">Info</a></li>
+                        <li><a href="./account.php">Sign Up</a></li>
                     </ul> 
                 </div>
                 <div class="container col-md-5 pull-right">

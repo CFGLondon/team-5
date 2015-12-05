@@ -13,7 +13,7 @@ crossorigin="anonymous">
         
         <link rel="stylesheet" href="../css/styles.css">
     
-        <title>Organisation Profile</title>
+        <title>Profile</title>
     </head>
     <body>
 	<div id="wrapper">
@@ -29,11 +29,11 @@ crossorigin="anonymous">
                 </div>
                 
                 <div class="container col-md-4 pull-left">  
-                    <ul class="nav navbar-nav pull-left">
-                        <li class="active"><a href="organisationdashboard.html">Dashboard</a></li>
-                        <li><a href="frontpage.html">Frontpage</a></li>
-                        <li><a href="../organisationsignup.html">Organisation</a></li>
-                        <li><a href="about.html">Info</a></li>
+                    <ul class="nav navbar-nav pull-left"> 
+                        <li class="active"><a href="userdashboard.php">Dashboard</a></li>
+                        <li><a href="frontpage.php">Frontpage</a></li>
+                        <li><a href="../organisationsignup.php">Organisation</a></li>
+                        <li><a href="about.php">Info</a></li>
                         <li><a href="../account.php">Sign Up</a></li>
                     </ul> 
                 </div>
@@ -54,52 +54,46 @@ crossorigin="anonymous">
 	
 			<div id="dashboard"><p>dashboard</p></div> 
 			<div id="main">    <div class="container">
-		<div class="col-md-6 pull-left">
+		<div class="row">
 			<div class="[ col-sm-6 col-md-offset-2 col-md-4 ]">
 				<div class="[ info-card ]">
-
-	                    <h1> <b>JPMorgan</b> </h1>
-                        <br></br>
-                            <h3>Investment Banking</h3>
-                             <br></br>
-                            <h3> Location: Worldwide locations</h3>
-
-
-
+					<img   style="width: 80%" height= "500px" src="
+https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/1195
+3122_851607628286478_2449994795237162020_n.jpg?oh=9cd43842081df
+80496f55c907a567fd2&oe=57217B28" />
 					<div class="[ info-card-details ] animate">
 						<div class="[ info-card-header ]">
-							
+							<h1> Andrew Ramsier :   20</h1>
+							<h3> Bournemouth </h3>
 						</div>
 						<div class="[ info-card-detail ]">
 							<!-- Description -->
-							<p>"We aim to be the most respected financial services firm in the world, serving corporations and individuals in over 100 countries."
-                                What we do:
-                                <ul>
-                                    <li>Investment banking</li>
-                                    <li>Market & Investor Services</li>
-                                    <li>Treasury Services</li>
-                                    <li>Investment Management</li>
-                                    <li>Private Banking</li>
-                                    <li>Wealth Management & Brokerage</li>
-                                    <li>commerial Banking</li>
-                                </ul>
-                            </p>
-							
-                            <div class="[ info-card-detail ]">
-                                <br></br>
-                                <h3>Reviews</h3>
-                                <p> JPMorgan feed us well.</p>
-                            </div>    
+							<p>My Qualifications go here please</p>
+							<br></br>
+							<p> Give me skills</p>
+							<div class="social">
+								<a href="https://www.facebook.com/andrew.ramsier" 
+class="[ social-icon facebook ] animate"><span 
+class="fa fa-facebook"></span></a>
+
+								<a href="https://twitter.com/Brewhandy" class="[ 
+social-icon twitter ] animate"><span class="fa 
+fa-twitter"></span></a>
+
+								<a href="https://github.com/massivturtlz" class="[ 
+social-icon github ] animate"><span class="fa 
+fa-github-alt"></span></a>
+
+								<a href="https://www.linkedin.com/profile/view?id=AAkAABJSh9cBuLBOEyU_7DNdHQ4gwwE_eqoVXU4&authType=NAME_SEARCH&authToken=e60S&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A307398615%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449274689467%2Ctas%3Aandrew%20ramsier" class=
+"[ social-icon linkedin ] animate"><span class=
+"fa fa-linkedin"></span></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
    
 			</div>
-            <div class="col-md-6 pull-right">
-                <h1>Google map here</h1>
-            </div>    
-            
 		</div>
 	</div><p>main</p></div> 
 		<p>content</p>

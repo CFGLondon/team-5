@@ -32,7 +32,7 @@ include("dbconnect.php");
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">        
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
         
         <title>User Dashboard</title>
@@ -52,10 +52,10 @@ include("dbconnect.php");
                 <div class="container col-md-5 pull-left">  
                     <ul class="nav navbar-nav pull-left">
                         <li class="active"><a href="">Dashboard</a></li>
-                        <li><a href="frontpage.html">Frontpage</a></li>
-                        <li><a href="../organisationsignup.html">Organisation</a></li>
-                        <li><a href="html/about.html">Info</a></li>
-                        <li><a href="../account.php">Sign Up</a></li>
+                        <li><a href="frontpage.php">Frontpage</a></li>
+                        <li><a href="./organisationsignup.php">Organisation</a></li>
+                        <li><a href="">Info</a></li>
+                        <li><a href="">Us</a></li>
                     </ul> 
                 </div>
                 <div class="container col-md-5 pull-right">

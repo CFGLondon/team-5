@@ -78,7 +78,7 @@ function get_age($birth_date){
 		<div class="row">
 			<div class="[ col-sm-6 col-md-offset-2 col-md-4 ]">
 				<div class="[ info-card ]">
-					<img style="width: 80%" height= "500px" src="../img/placeholder.jpg" />
+					<img style="width: 80%" height= "500px" src="./img/placeholder.jpg" />
 					<div class="[ info-card-details ] animate">
 						<div class="[ info-card-header ]">
 							<h1> <?php echo $row_name['forename']; ?> <?php echo $row_name['surname']; ?> : <?php echo "".get_age($row_name['dob']) .""; ?></h1>
