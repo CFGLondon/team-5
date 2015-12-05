@@ -18,7 +18,7 @@
    		if (password_verify($password, $hash)){
    	
    			$_SESSION['userlog'] = $username;
-   			header("location: profile.php");
+   			header("location: userdashboard.php");
    
    		} else {
    	
