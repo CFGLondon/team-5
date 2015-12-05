@@ -43,7 +43,7 @@
                 </div>
             </nav>        
             
-         <div class="container col-md-6 pull-left">
+         <div class="container">
             <h1><b>About Citizen UK</b></h1>
             <p>Citizens UK organises communities to act together for power, social justice and the common good. 
 
@@ -54,7 +54,7 @@ We develop the leadership capacity of our members so they can hold politicians a
 Community organising is democracy in action: winning victories that change lives and transform communities. </p>
         </div>
 
-        <div class="container col-md-6 pull-right">
+        <div class="container">
             <h1><b> What is Community Organising?</b></h1>
 <p>Community Organising is based on the principle that when people work together they have the power to change their neighbourhoods, cities, and ultimately the country for the better. We work with people who want to transform the world, from what it is to what they believe it should be. To do this we listen to our members, asking them about their concerns and developing strategies to improve our communities. We ensure that civil society is at the negotiating table alongside the market and state, so that our communities are included in the decisions that affect them.</p>
 </div>
