@@ -1,3 +1,5 @@
+
+
 @import "bourbon";
 
 $color_purple: #5133AB;
@@ -99,7 +101,7 @@ strong {
 }
 
 .pre-scrollable {
-    max-height: 2000px;
+    max-height: 800px;
 }
 
 #wrapper{
