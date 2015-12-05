@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">        
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
     
         <title>Organisation Dashboard</title>
     </head>
@@ -44,85 +44,146 @@
             </nav>     
         
         
-        <div class="container col-md-9">
+        <div class="container row">
+    <div class="container col-md-6">
+      <h1>Current Opportunities Posted</h1>
+    </div>
+    <div class="container col-md-5 pull-right">
+        <button type="submit" class="btn btn-primary pull-right">Logout</button>
+        <button type="submit" class="btn btn-primary pull-right">View Profile</button>     
+        <button type="submit" class="btn btn-primary pull-right">Edit Profile</button>
+    </div>     
+  </div>
+  <div class="container col-md-9 pre-scrollable">
   
-  <div class="row  col-md-12">
+  <div class="col-md-12">
     <div class="col-sm-4">
-      <div class="tile purple">
+      <div class="tile">
         <h3 class="title"><?php echo $row_name['opportunityname'] ?></h3>
+        <h6>Organisation Name</h6>  
         <p><?php echo $row_name['description'] ?></p>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="tile red">
+      <div class="tile">
         <h3 class="title">Opportunity 2</h3>
+        <h6>Organisation Name</h6>    
         <p>Hello Red, this is a colored tile.</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="tile orange">
+      <div class="tile">
         <h3 class="title">Opportunity 3</h3>
+        <h6>Organisation Name</h6>    
         <p>Hello Orange, this is a colored tile.</p>
       </div>
     </div>
-  </div>
-  <div class="row col-md-12">
     <div class="col-sm-4">
-      <div class="tile green">
+      <div class="tile">
         <h3 class="title">Opportunity 4</h3>
+        <h6>Organisation Name</h6>  
         <p>Hello Green, this is a colored tile.</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="tile blue">
+      <div class="tile">
         <h3 class="title">Opportunity 5</h3>
+        <h6>Organisation Name</h6>    
         <p>Hello Blue, this is a colored tile.</p>
       </div>
     </div>
       <div class="col-sm-4">
-      <div class="tile blue">
-        <h3 class="title">Opportunity 5</h3>
+      <div class="tile">
+        <h3 class="title">Opportunity 6</h3>
+        <h6>Organisation Name</h6>    
         <p>Hello Blue, this is a colored tile.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile">
+        <h3 class="title"><?php echo $row_name['opportunityname'] ?></h3>
+          <h6>Organisation Name</h6> 
+        <p><?php echo $row_name['description'] ?></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile">
+        <h3 class="title">Opportunity 8</h3>
+          <h6>Organisation Name</h6> 
+        <p>Hello Red, this is a colored tile.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile">
+        <h3 class="title">Opportunity 9</h3>
+        <h6>Organisation Name</h6>  
+        <p>Hello Orange, this is a colored tile.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile">
+        <h3 class="title"><?php echo $row_name['opportunityname'] ?></h3>
+          <h6>Organisation Name</h6> 
+        <p><?php echo $row_name['description'] ?></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile">
+        <h3 class="title">Opportunity 11</h3>
+          <h6>Organisation Name</h6> 
+        <p>Hello Red, this is a colored tile.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile">
+        <h3 class="title">Opportunity 12</h3>
+          <h6>Organisation Name</h6> 
+        <p>Hello Orange, this is a colored tile.</p>
       </div>
     </div>
   </div>
 </div>
-        
         <div id="recent" class="container col-md-3 pull-right pre-scrollable">
             <div class="col-sm-12">
       <div class="tile purple">
-        <h3 class="title">Message 1</h3>
-        <p>This is the most recent message.</p>
+        <h3 class="title">Recent 1</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the first recent opportunity.</p>
       </div>
     </div>
         <div class="col-sm-12">
       <div class="tile purple">
-        <h3 class="title">Message 2</h3>
-        <p>This is a message from a user.</p>
+        <h3 class="title">Recent 2</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the second recent opportunity.</p>
       </div>
     </div>
         <div class="col-sm-12">
-      <div class="tile purple">
-        <h3 class="title">Message 3</h3>
-        <p>This is a message from a user.</p>
+      <div class="tile">
+        <h3 class="title">Recent 3</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the third recent opportunity</p>
       </div>
     </div>
             <div class="col-sm-12">
-      <div class="tile purple">
-        <h3 class="title">Message 4</h3>
-        <p>This is a message from a user.</p>
+      <div class="tile">
+        <h3 class="title">Recent 4</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the fourth recent opportunity</p>
       </div>
     </div>
             <div class="col-sm-12">
-      <div class="tile purple">
-        <h3 class="title">Message 5</h3>
-        <p>This is a message from a user.</p>
+      <div class="tile">
+        <h3 class="title">Recent 5</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the fifth recent opportunity</p>
       </div>
     </div>
             <div class="col-sm-12">
-      <div class="tile purple">
-        <h3 class="title">Message 6</h3>
-        <p>This is a message from a user.</p>
+      <div class="tile">
+        <h3 class="title">Recent 6</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the sixth recent opportunity</p>
       </div>
     </div>
         
