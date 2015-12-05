@@ -17,7 +17,6 @@ include("dbconnect.php");
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">        
         <link rel="stylesheet" href="../css/styles.css">
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
         
         <title>User Dashboard</title>
     </head>
@@ -60,7 +59,7 @@ include("dbconnect.php");
       <h1><strong>Opportunities</strong></h1>
     </div>
   </div>
-        <div class="container col-md-9">
+  <div class="container col-md-9 pre-scrollable">
   
   <div class="row  col-md-12">
     <div class="col-sm-4">
@@ -97,10 +96,50 @@ include("dbconnect.php");
     </div>
       <div class="col-sm-4">
       <div class="tile blue">
-        <h3 class="title">Opportunity 5</h3>
+        <h3 class="title">Opportunity 6</h3>
         <p>Hello Blue, this is a colored tile.</p>
       </div>
     </div>
+    <div class="row  col-md-12">
+    <div class="col-sm-4">
+      <div class="tile purple">
+        <h3 class="title"><?php echo $row_name['opportunityname'] ?></h3>
+        <p><?php echo $row_name['description'] ?></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile red">
+        <h3 class="title">Opportunity 8</h3>
+        <p>Hello Red, this is a colored tile.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile orange">
+        <h3 class="title">Opportunity 9</h3>
+        <p>Hello Orange, this is a colored tile.</p>
+      </div>
+    </div>
+  </div>
+    <div class="row  col-md-12">
+    <div class="col-sm-4">
+      <div class="tile purple">
+        <h3 class="title"><?php echo $row_name['opportunityname'] ?></h3>
+        <p><?php echo $row_name['description'] ?></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile red">
+        <h3 class="title">Opportunity 11</h3>
+        <p>Hello Red, this is a colored tile.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile orange">
+        <h3 class="title">Opportunity 12</h3>
+        <p>Hello Orange, this is a colored tile.</p>
+      </div>
+    </div>
+  </div>
   </div>
 </div>
         <div id="recent" class="container col-md-3 pull-right pre-scrollable">
