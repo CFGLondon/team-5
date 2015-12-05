@@ -8,7 +8,7 @@
 	
 
 
-    if( isset($_GET['text1']) && isset($_GET['text2'])){
+    if( isset($_GET['oname']) && isset($_GET['odesc'])){
 	
 		/** IF MADE UP OF 2 **/
 
@@ -37,21 +37,24 @@
 		if(mysql_query($sqlUserName, $conn)) {
 			echo "success #1";
 		} else {
-			echo "critical mission failure #1"
+			echo "critical mission failure #1";
 		}
 		if(mysql_query($sqlDesc,$conn)) {
 			echo "success #2";
 		}	else {
-			echo "critical mission failure #2"
+			echo "critical mission failure #2";
 		}	
 		if(mysql_query($sqlLoc,$conn)) {
 			echo "success #3";
 		}	else {
-			echo "critical mission failure #3 ya done snafud"
+			echo "critical mission failure #3 ya done snafud";
 		}			
 		
     }
-
+	else {
+		echo "Failed to instanciate";
+	}
+}
 	opportunity();
 	
 ?>
