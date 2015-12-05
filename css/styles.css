@@ -142,6 +142,7 @@ strong {
 	}
 	.info-card {
 		width: 200%;
+		height: 500px;
 		border: 1px solid rgb(215, 215, 215);
 		position: relative;
 		font-family: 'Lato', sans-serif;
@@ -149,8 +150,12 @@ strong {
 		overflow: hidden;
 	}
 	.info-card > img {
-		width: 100px;
-		margin-bottom: 60px;
+		    margin-left: auto;
+    margin-right: auto; 
+		
+		margin-bottom: 600px;
+
+
 	}
 	.info-card .info-card-details,
 	.info-card .info-card-details .info-card-header  {
