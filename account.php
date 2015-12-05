@@ -52,7 +52,7 @@
       <nav class="navbar navbar-default">
          <div class="container pull-left col-md-2">
             <div class="navbar-header">
-               <a href="" class="navbar-brand">Route 21</a>
+               <img class="img-responsive" src="Assets/R21LogoDark.png">
             </div>
          </div>
          <div class="container col-md-4 pull-left">
