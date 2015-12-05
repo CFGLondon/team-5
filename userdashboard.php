@@ -15,7 +15,6 @@ include("dbconnect.php");
 	
 	while ($row = mysqli_fetch_assoc($results)) {
 		array_push($opname, $row['opportunityname']);
-
 		array_push($opdesc, $row['description']);
 
 	
@@ -90,8 +89,8 @@ include("dbconnect.php");
     </div>
     <div class="col-sm-4">
       <div class="tile red">
-        <h3 class="title"><? php print_r($opname[0]); ?></h3>
-        <p><?php print_r($opdesc[0]); ?></p>
+        <h3 class="title"><?php echo $opname[0]; ?></h3>
+        <p><?php echo $opdesc[0]; ?></p>
       </div>
     </div>
     <div class="col-sm-4">
