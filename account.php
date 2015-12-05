@@ -57,10 +57,11 @@
          </div>
          <div class="container col-md-4 pull-left">
             <ul class="nav navbar-nav pull-left">
-               <li class="active"><a href="">Frontpage</a></li>
+                <li><a href="userdashboard.html">Dashboard</a></li>
+               <li><a href="html/frontpage.html">Frontpage</a></li>
                <li><a href="">Organisation</a></li>
                <li><a href="">Info</a></li>
-               <li><a href="">Us</a></li>
+               <li class="active"><a href="../account.php">Sign Up</a></li>
             </ul>
          </div>
          <div class="container col-md-5 pull-right">
