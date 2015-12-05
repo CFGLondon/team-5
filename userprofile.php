@@ -33,15 +33,10 @@ function get_age($birth_date){
         <title>Profile</title>
     </head>
     <body>
-	<div id="wrapper">
 		            <nav class="navbar navbar-default">
                 <div class="container pull-left col-md-2">
-                    <div class="navbar-header">
-                    
-                     <a href="" class="navbar-brand">
-                            Route 21
-                        </a>
-                    
+                    <div class="navbar-header"> 
+                        <img class="img-responsive" src="/assets/R21LogoDark.png">
                     </div>
                 </div>
                 
@@ -65,18 +60,14 @@ function get_age($birth_date){
                         </div>
                         <button type="submit" class="btn btn-default">Login</button>
 						
-						<form action="logout.php">
-						<button type="submit" class="btn btn-default">Log-Out</button>
-						</form>
-						
                     </form>
                 </div>
             </nav>    
-		<div id="content"> 
-	
-			<div id="dashboard"><p>dashboard</p></div> 
-			<div id="main">    <div class="container">
-		<div class="row">
+		
+        <div class="container">
+            <h1>User Profile</h1>
+        </div>	
+		<div class="container col-md-9 pull-left">
 			<div class="[ col-sm-6 col-md-offset-2 col-md-4 ]">
 				<div class="[ info-card ]">
 					<img style="width: 80%" height= "500px" src="./img/placeholder.jpg" />
@@ -148,12 +139,53 @@ fa-github-alt"></span></a>
 			</div>
    
 			</div>
-		</div>
-	</div><p>main</p></div> 
-		<p>content</p>
-		</div>
-		<div id="footer"><p>footer</p></div>
-	</div>
+    
+                <div id="recent" class="container col-md-3 pull-right pre-scrollable">
+            <div class="col-sm-12">
+      <div class="tileorange">
+        <h3 class="title">Recent 1</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the first recent opportunity.</p>
+      </div>
+    </div>
+        <div class="col-sm-12">
+      <div class="tileorange">
+        <h3 class="title">Recent 2</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the second recent opportunity.</p>
+      </div>
+    </div>
+        <div class="col-sm-12">
+      <div class="tileorange">
+        <h3 class="title">Recent 3</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the third recent opportunity</p>
+      </div>
+    </div>
+            <div class="col-sm-12">
+      <div class="tileorange">
+        <h3 class="title">Recent 4</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the fourth recent opportunity</p>
+      </div>
+    </div>
+            <div class="col-sm-12">
+      <div class="tileorange">
+        <h3 class="title">Recent 5</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the fifth recent opportunity</p>
+      </div>
+    </div>
+            <div class="col-sm-12">
+      <div class="tileorange">
+        <h3 class="title">Recent 6</h3>
+          <h6>Organisation Name</h6> 
+        <p>This is the sixth recent opportunity</p>
+      </div>
+    </div>
+        
+    
+            </div>
 	        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>    

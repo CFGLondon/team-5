@@ -52,7 +52,7 @@
       <nav class="navbar navbar-default">
          <div class="container pull-left col-md-2">
             <div class="navbar-header">
-               <img class="img-responsive" src="Assets/R21LogoDark.png">
+               <img class="img-responsive" src="assets/R21LogoDark.png">
             </div>
          </div>
          <div class="container col-md-4 pull-left">

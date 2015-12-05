@@ -49,21 +49,27 @@
             <ol class="carousel-indicators">
                 <li data-target="#featured" data-slide-to="0" class="active"></li>
                 <li data-target="#featured" data-slide-to="1"></li>
-                <li data-target="#featured" data-slide-to="2"></li> 
+                <li data-target="#featured" data-slide-to="2"></li>
+                <li data-target="#featured" data-slide-to="3"></li>
+                <li data-target="#featured" data-slide-to="4"></li>
             </ol>
                      
             <div class="carousel-inner">
                 <div class="item active" id="featured">
-                    <img class="img-responsive pull-center" src="assets/city-sunny-people-street.jpg" alt="R21 Logo Dark">
-                    <div class="carousel-caption">              
-                    </div>
+                    <img class="img-responsive" src="assets/city-people-walking-blur.jpg" alt="R21 Logo Dark">
                 </div>
                 
                 <div class="item">
-                    <img class="img-responsive pull-center" src="/assets/hands-people-woman-working.jpg" alt="R21 Logo Dark">
+                    <img class="img-responsive" src="/assets/people-woman-coffee-meeting.jpg" alt="R21 Logo Dark">
                 </div>    
                 <div class="item">    
-                    <img class="img-responsive pull-center" src="/assets/man-person-people-train.jpg" alt="R21 Logo Dark">        
+                    <img class="img-responsive" src="/assets/city-sunny-people-street.jpg" alt="R21 Logo Dark">        
+                </div>
+                <div class="item">    
+                    <img class="img-responsive" src="/assets/man-person-people-train.jpg" alt="R21 Logo Dark">        
+                </div>
+                <div class="item">    
+                    <img class="img-responsive" src="/assets/people-apple-iphone-writing.jpg" alt="R21 Logo Dark">        
                 </div>
             </div>  
             

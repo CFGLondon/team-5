@@ -35,7 +35,7 @@ include("dbconnect.php");
                 <div class="container pull-left col-md-2">
                     <div class="navbar-header">
                     
-                     <img class="img-responsive" src="../Assets/R21LogoDark.png">
+                     <img class="img-responsive" src="/assets/R21LogoDark.png">
                     
                     </div>
                 </div>
@@ -172,42 +172,42 @@ include("dbconnect.php");
 </div>
         <div id="recent" class="container col-md-3 pull-right pre-scrollable">
             <div class="col-sm-12">
-      <div class="tile purple">
+      <div class="tileorange">
         <h3 class="title">Recent 1</h3>
           <h6>Organisation Name</h6> 
         <p>This is the first recent opportunity.</p>
       </div>
     </div>
         <div class="col-sm-12">
-      <div class="tile purple">
+      <div class="tileorange">
         <h3 class="title">Recent 2</h3>
           <h6>Organisation Name</h6> 
         <p>This is the second recent opportunity.</p>
       </div>
     </div>
         <div class="col-sm-12">
-      <div class="tile purple">
+      <div class="tileorange">
         <h3 class="title">Recent 3</h3>
           <h6>Organisation Name</h6> 
         <p>This is the third recent opportunity</p>
       </div>
     </div>
             <div class="col-sm-12">
-      <div class="tile purple">
+      <div class="tileorange">
         <h3 class="title">Recent 4</h3>
           <h6>Organisation Name</h6> 
         <p>This is the fourth recent opportunity</p>
       </div>
     </div>
             <div class="col-sm-12">
-      <div class="tile purple">
+      <div class="tileorange">
         <h3 class="title">Recent 5</h3>
           <h6>Organisation Name</h6> 
         <p>This is the fifth recent opportunity</p>
       </div>
     </div>
             <div class="col-sm-12">
-      <div class="tile purple">
+      <div class="tileorange">
         <h3 class="title">Recent 6</h3>
           <h6>Organisation Name</h6> 
         <p>This is the sixth recent opportunity</p>
