@@ -54,18 +54,16 @@
                      
             <div class="carousel-inner">
                 <div class="item active" id="featured">
-                    <img class="img-responsive pull-center" src="./assets/R21LogoDark.png" alt="R21 Logo Dark">
-                    <div class="carousel-caption">
-                        <h3>Here we talk about the photo</h3>
-                        <p>And abit more about the photo</p>               
+                    <img class="img-responsive pull-center" src="assets/city-sunny-people-street.jpg" alt="R21 Logo Dark">
+                    <div class="carousel-caption">              
                     </div>
                 </div>
                 
                 <div class="item">
-                    <img class="img-responsive pull-center" src="./assets/R21MarkDark.png" alt="R21 Logo Dark">
+                    <img class="img-responsive pull-center" src="/assets/hands-people-woman-working.jpg" alt="R21 Logo Dark">
                 </div>    
                 <div class="item">    
-                    <img class="img-responsive pull-center" src="./assets/R21%20Colour%20Scheme.png" alt="R21 Logo Dark">        
+                    <img class="img-responsive pull-center" src="/assets/man-person-people-train.jpg" alt="R21 Logo Dark">        
                 </div>
             </div>  
             
