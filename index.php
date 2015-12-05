@@ -56,7 +56,7 @@
                      
             <div class="carousel-inner">
                 <div class="item active" id="featured">
-                    <img class="img-responsive" src="assets/city-people-walking-blur.jpg" alt="R21 Logo Dark">
+                    <img class="img-responsive" src="/assets/city-people-walking-blur.jpg" alt="R21 Logo Dark">
                 </div>
                 
                 <div class="item">

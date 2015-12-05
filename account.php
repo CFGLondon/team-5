@@ -55,7 +55,7 @@
                <img class="img-responsive" src="assets/R21LogoDark.png">
             </div>
          </div>
-         <div class="container col-md-4 pull-left">
+         <div class="container col-md-5 pull-left">
             <ul class="nav navbar-nav pull-left">
                 <li><a href="userdashboard.php">Dashboard</a></li>
                <li><a href="index.php">Frontpage</a></li>
