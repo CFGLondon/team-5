@@ -43,8 +43,8 @@
                 </div>
             </nav>        
             
-         <div class="container">
-           <b> <h1>About Citizen UK</h1></b>
+         <div class="container col-md-6 pull-left">
+            <h1><b>About Citizen UK</b></h1>
             <p>Citizens UK organises communities to act together for power, social justice and the common good. 
 
 We are the home of community organising in the UK, with diverse civil society alliances in London, Milton Keynes, Nottingham, Birmingham, Wales and Leeds.    
@@ -54,13 +54,13 @@ We develop the leadership capacity of our members so they can hold politicians a
 Community organising is democracy in action: winning victories that change lives and transform communities. </p>
         </div>
 
-        <div class="container">
-            <b><h1> What is Community Organising?</h1></b>
+        <div class="container col-md-6 pull-right">
+            <h1><b> What is Community Organising?</b></h1>
 <p>Community Organising is based on the principle that when people work together they have the power to change their neighbourhoods, cities, and ultimately the country for the better. We work with people who want to transform the world, from what it is to what they believe it should be. To do this we listen to our members, asking them about their concerns and developing strategies to improve our communities. We ensure that civil society is at the negotiating table alongside the market and state, so that our communities are included in the decisions that affect them.</p>
 </div>
         
         <div class="container">
-           <b> <h1>What Is Route 21?</h1></b>
+            <h1><b>What Is Route 21?</b></h1>
             <p>Citizens UK is commited to empowering the youth of today by helping them to find good job opportunities across their vast network. Using the realtionships that Citizens UK has gained the hope that their new venture 'Route 21' will help youth to gain work through programs and technology. </p>
         </div>
         
