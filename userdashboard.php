@@ -3,11 +3,9 @@ include("denied.php");
 include("dbconnect.php");
 
 	$query = "SELECT * FROM opportunities";
-	$results = mysql_query($query, $conn);
-	$row_count = mysql_num_rows($results);
-	$row_name = mysql_fetch_array($results);
-	
-	print_r($row_name['description']);
+	$results = mysqli_query($conn, $query);
+	$row_count = mysqli_num_rows($results);
+	$row_name = mysqli_fetch_array($results);
 	
 ?>
 <!doctype html>
