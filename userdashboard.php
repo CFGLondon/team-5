@@ -2,10 +2,24 @@
 include("denied.php");
 include("dbconnect.php");
 
+
+
+
 	$query = "SELECT * FROM opportunities";
 	$results = mysqli_query($conn, $query);
 	$row_count = mysqli_num_rows($results);
 	$row_name = mysqli_fetch_array($results);
+
+	
+	while ($row = mysqli_fetch_assoc($query)) {
+		print_r($row['opportunityname']);
+	
+	
+	}
+	
+	
+	
+	
 	
 ?>
 <!doctype html>
