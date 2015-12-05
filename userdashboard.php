@@ -11,9 +11,13 @@ include("dbconnect.php");
 	$row_name = mysqli_fetch_array($results);
 
 	
-	while ($row = mysqli_fetch_assoc($query)) {
+	while ($row = mysqli_fetch_assoc($results)) {
 		print_r($row['opportunityname']);
-	
+		print_r("");
+		print_r($row['description']);
+		print_r("");
+		print_r("");
+		
 	
 	}
 	
