@@ -3,9 +3,11 @@ include("denied.php");
 include("dbconnect.php");
 
 	$query = "SELECT * FROM opportunities";
-	$results = mysql_query($query);
+	$results = mysql_query($query, $conn);
 	$row_count = mysql_num_rows($results);
 	$row_name = mysql_fetch_array($results);
+	
+	print_r($row_name['description']);
 	
 ?>
 <!doctype html>
@@ -66,8 +68,8 @@ include("dbconnect.php");
   <div class="row  col-md-12">
     <div class="col-sm-4">
       <div class="tile purple">
-        <h3 class="title"><?php echo $row_name['opportunityname'] ?></h3>
-        <p><?php echo $row_name['description'] ?></p>
+        <h3 class="title"><?php echo $row_name['opportunityname']; ?></h3>
+        <p><?php echo $row_name['description']; ?></p>
       </div>
     </div>
     <div class="col-sm-4">
