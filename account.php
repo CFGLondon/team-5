@@ -59,7 +59,7 @@
          <div class="container col-md-5 pull-left">
             <ul class="nav navbar-nav pull-left">
                 <li><a href="userdashboard.php">Dashboard</a></li>
-               <li><a href="index.php">Frontpage</a></li>
+               <li><a href="index.php">Home</a></li>
                <li><a href="organisationsignup.php">Organisation</a></li>
                <li><a href="about.php">Info</a></li>
                <li class="active"><a href="account.php">Sign Up</a></li>

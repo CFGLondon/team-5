@@ -27,7 +27,7 @@
                 <div class="container col-md-4 pull-left">  
                     <ul class="nav navbar-nav pull-left">
                         <li class="active"><a href="organisationdashboard.php">Dashboard</a></li>
-                        <li><a href="frontpage.php">Frontpage</a></li>
+                        <li><a href="frontpage.php">Home</a></li>
                         <li><a href="organisationsignup.php">Organisation</a></li>
                         <li><a href="about.php">Info</a></li>
                         <li><a href="account.php">Sign Up</a></li>
@@ -75,7 +75,7 @@
                <option>Choose...</option>
                <option>BTEC</option>
                <option>A level</option>
-               <option>GCeeSE</option>
+               <option>GCSE</option>
             </select>
          </div>
          <input class="btn btn-primary" type="submit" value="save"> 
