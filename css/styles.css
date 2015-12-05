@@ -44,35 +44,6 @@ button {
     max-height: 500px;
 }
 
-#wrapper{
-	min-width: 960px;
-}
-#header{
-	width: 100%;
-	background-color:#df6a11 ;
-}
-#nav {background-color:#f3f3f4;}
-#content{
-	width: 100%;
-	background-color:#ffffff ;
-	clear: none;
-	
-}
-#dashboard{
-	float: right;
-	width: 20%;
-	background-color: #ffffff;
-}
-#main{
-	width: 80%;
-	background-color:#de3243;
-	float:left;
-}
-#footer{
-	width: 100%;
-	background-color: #ffffff;
-}
-
     @import url(//fonts.googleapis.com/css?family=Lato:400,900);
     @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
