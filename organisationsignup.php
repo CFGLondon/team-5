@@ -51,32 +51,36 @@
    <body>
        
       <nav class="navbar navbar-default">
-         <div class="container pull-left col-md-2">
-            <div class="navbar-header">
-               <a href="" class="navbar-brand">Route 21</a>
-            </div>
-         </div>
-         <div class="container col-md-4 pull-left">
-            <ul class="nav navbar-nav pull-left">
-               <li class="active"><a href="">Frontpage</a></li>
-               <li><a href="">Organisation</a></li>
-               <li><a href="">Info</a></li>
-               <li><a href="">Us</a></li>
-            </ul>
-         </div>
-         <div class="container col-md-5 pull-right">
-            <form class="navbar-form navbar-left pull-right"
-               role="login">
-               <div class="form-group">
-                  <input type="text" class="form-control"
-                     placeholder="Email">
-                  <input type="text" class="form-control"
-                     placeholder="Password">
-               </div>
-               <button type="submit" class="btn btn-default">Login</button>
-            </form>
-         </div>
-      </nav> 
+                <div class="container pull-left col-md-2">
+                    <div class="navbar-header">
+                    
+                     <img class="img-responsive" src="../Assets/R21LogoDark.png">
+                    
+                    </div>
+                </div>
+                
+                <div class="container col-md-5 pull-left">  
+                    <ul class="nav navbar-nav pull-left">
+                        <li class="active"><a href="">Dashboard</a></li>
+                        <li><a href="frontpage.html">Frontpage</a></li>
+                        <li><a href="../organisationsignup.html">Organisation</a></li>
+                        <li><a href="">Info</a></li>
+                        <li><a href="">Us</a></li>
+                    </ul> 
+                </div>
+                <div class="container col-md-5 pull-right">
+                    <form class="navbar-form navbar-left pull-right"
+                          role="login">
+                        <div class="form-group">
+                            <input type="text" class="form-control"
+                                   placeholder="Email">
+                            <input type="text" class="form-control"
+                                   placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-default">Login</button>
+                    </form>
+                </div>
+            </nav>    
        
       <div class="container-fluid"><h1>Organisation</h1></div>  
        
